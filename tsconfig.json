@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": false,
+    "declaration": true,
+    "noEmit": false,
+    "rootDirs": [
+      "src"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "downlevelIteration":true,
+    "sourceMap": true,
+    "lib": [
+      "ES2020",
+      "webworker"
+    ],
+    "types": ["node","jest"]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
